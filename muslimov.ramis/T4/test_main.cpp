@@ -52,5 +52,7 @@ int main() {
     //     return 2;
     // }
 
+    int a;
+    std::cin >> a;
     return 0;
 }
