@@ -1,8 +1,8 @@
 #ifndef COMPOSITE_SHAPE_HPP
 #define COMPOSITE_SHAPE_HPP
 
-#include "shape.hpp"
-#include "point.hpp"
+#include "../include/shape.hpp"
+#include "../include/point.hpp"
 #include <vector>
 #include <memory>
 #include <string>

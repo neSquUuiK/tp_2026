@@ -1,7 +1,7 @@
 #ifndef ELLIPSE_HPP
 #define ELLIPSE_HPP
-#include "shape.hpp"
-#include "point.hpp"
+#include "../include/shape.hpp"
+#include "../include/point.hpp"
 #include <string>
 
 class Ellipse : public Shape

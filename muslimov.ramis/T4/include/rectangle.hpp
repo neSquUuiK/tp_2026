@@ -1,8 +1,8 @@
 #ifndef RECTANGLE_HPP
 #define RECTANGLE_HPP
 
-#include "point.hpp"
-#include "shape.hpp"
+#include "../include/point.hpp"
+#include "../include/shape.hpp"
 
 class Rectangle : public Shape
 {

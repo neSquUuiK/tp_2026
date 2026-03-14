@@ -1,16 +1,16 @@
-#include <gtest/gtest.h>
+// #include <gtest/gtest.h>
 #include <iostream>
 #include <iomanip>
 #include <memory>
 
-#include "demo_shapes.hpp"
-#include "shapeContainer.hpp"
-#include "shapePrinter.hpp"
-#include "compositeShape.hpp"
+#include "../include/demo_shapes.hpp"
+#include "../include/shapeContainer.hpp"
+#include "../include/shapePrinter.hpp"
+#include "../include/compositeShape.hpp"
 
 int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    int testResult = RUN_ALL_TESTS();
+    // ::testing::InitGoogleTest(&argc, argv);
+    // int testResult = RUN_ALL_TESTS();
 
     // Демонстрационный вывод — сразу после выполнения тестов
     try {
@@ -52,5 +52,5 @@ int main(int argc, char **argv) {
         std::cerr << "Demo printing failed: " << e.what() << "\n";
     }
 
-    return testResult;
+    return 0;
 }

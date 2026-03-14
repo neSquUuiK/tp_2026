@@ -3,7 +3,7 @@
 
 #include <ostream>
 #include "shape.hpp"
-#include "compositeShape.hpp"
+#include "../include/compositeShape.hpp"
 
 namespace shapes_ui {
     // Печать простой фигуры в одну строку: [NAME, (x.xx, y.yy), area]

@@ -1,7 +1,7 @@
 #ifndef SHAPE_HPP
 #define SHAPE_HPP
 
-#include "point.hpp"
+#include "../include/point.hpp"
 #include <string>
 
 class Shape{

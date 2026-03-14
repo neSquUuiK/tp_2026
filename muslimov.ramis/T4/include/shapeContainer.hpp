@@ -3,7 +3,7 @@
 
 #include <vector>
 #include <memory>
-#include "shape.hpp"
+#include "../include/shape.hpp"
 
 class ShapesContainer {
 public:

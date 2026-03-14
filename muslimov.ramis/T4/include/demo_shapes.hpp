@@ -1,7 +1,7 @@
 #ifndef DEMO_SHAPES_HPP
 #define DEMO_SHAPES_HPP
 
-#include "shapeContainer.hpp"
+#include "../include/shapeContainer.hpp"
 #include <ostream>
 
 // Создаёт контейнер с демонстрационными фигурами (владеет фигурами)

@@ -1,8 +1,8 @@
-#include "demo_shapes.hpp"
-#include "rectangle.hpp"
-#include "ellipse.hpp"
-#include "compositeShape.hpp"
-#include "shapePrinter.hpp"
+#include "../include/demo_shapes.hpp"
+#include "../include/rectangle.hpp"
+#include "../include/ellipse.hpp"
+#include "../include/compositeShape.hpp"
+#include "../include/shapePrinter.hpp"
 #include <memory>
 
 ShapesContainer createDemoContainer() {
